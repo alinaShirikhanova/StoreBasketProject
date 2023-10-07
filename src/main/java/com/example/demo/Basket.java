@@ -1,12 +1,14 @@
 package com.example.demo;
 
 import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 import org.springframework.web.context.annotation.SessionScope;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @SessionScope
+@Component
 public class Basket {
     private final List<Integer> items;
 

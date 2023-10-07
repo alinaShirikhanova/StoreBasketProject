@@ -1,7 +1,9 @@
 package com.example.demo;
 
-import java.util.List;
+import org.springframework.stereotype.Service;
 
+import java.util.List;
+@Service
 public class BasketServiceImpl implements BasketService {
     private final Basket basket;
 
